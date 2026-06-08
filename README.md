@@ -1,57 +1,66 @@
 🤖 TruthTrace AI
 📌 Overview
 
-TruthTrace AI is a Streamlit-based machine learning project developed as a semester project for Artificial Intelligence.
-It is designed to demonstrate how AI/ML concepts can be applied in a simple interactive web application.
+TruthTrace AI is a machine learning-based web application that classifies news text as real or fake.
+It is built using Python and Streamlit and demonstrates a complete text classification pipeline for misinformation detection.
 
-The project focuses on building a basic AI-driven system using Python and machine learning libraries.
+The project applies Natural Language Processing (NLP) and supervised learning techniques to analyze textual data and make predictions.
 
-🎯 Purpose
+🎯 Objective
 
-The main purpose of this project is to:
+The main goal of this project is to:
 
-Apply Artificial Intelligence concepts in a practical way
-Build an interactive web application using Streamlit
-Understand end-to-end machine learning workflow
-Improve programming and problem-solving skills
-🛠️ Technologies Used
+Detect fake news using machine learning techniques
+Classify news text into real or fake categories
+Apply NLP concepts in a practical real-world scenario
+Build an interactive AI-based web application using Streamlit
+🧠 How It Works
+User enters a news headline or article text
+Text is preprocessed (cleaning, normalization, etc.)
+Machine learning model analyzes the text
+Model predicts:
+✅ Real News
+❌ Fake News
+🛠️ Tech Stack
 Python
-Streamlit
-Pandas
-NumPy
-Scikit-learn
+Streamlit (UI)
+Pandas (data handling)
+NumPy (numerical operations)
+Scikit-learn (ML model)
+NLP techniques (text processing)
 ⚙️ Features
-Simple web-based interface using Streamlit
-User input handling
-Basic data processing and analysis
-Machine learning-based logic (depends on implementation)
+Simple and interactive web interface
+Real-time text classification
+Fake vs Real news detection
+Lightweight and easy to run locally
+End-to-end ML pipeline (data → model → prediction)
 📂 Project Structure
 TruthTrace-AI/
 │
-├── app.py
-├── requirements.txt
-├── README.md
-├── data/
-├── models/
-└── utils/
-▶️ How to Run the Project
-Clone the repository:
+├── app.py                # Main Streamlit application
+├── requirements.txt      # Dependencies
+├── README.md             # Project documentation
+├── data/                 # Dataset used for training/testing
+├── models/              # Trained ML model
+└── utils/               # Helper functions (if any)
+▶️ How to Run
+1. Clone repository
 git clone https://github.com/zamanalibscsaif24-tech/TruthTrace-AI.git
-Install dependencies:
+2. Install dependencies
 pip install -r requirements.txt
-Run the application:
+3. Run application
 streamlit run app.py
 🚧 Current Status
 
 This is the initial academic version of the project.
-It is not yet deployed and does not use external/public data sources.
+It works as a prototype for fake news detection using machine learning.
 
 🔮 Future Improvements
-Improve model accuracy and logic
-Enhance UI/UX design
-Add real dataset integration
-Deploy on Streamlit Cloud or similar platforms
-Add advanced AI features
+Improve model accuracy with better dataset
+Add deep learning-based classification (LSTM/Transformers)
+Improve UI/UX design in Streamlit
+Add explainability (why prediction is fake/real)
+Deploy on Streamlit Cloud or HuggingFace Spaces
 👨‍💻 Developer
 
 Zaman
